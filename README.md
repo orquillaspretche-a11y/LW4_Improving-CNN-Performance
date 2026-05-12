@@ -26,23 +26,39 @@
 
 💡 **5. How did data augmentation affect validation accuracy?**
 
+-The validation accuracy for the baseline model was 0.7677. After implementing data augmentation and other enhancements in the improved custom CNN, the validation accuracy increase to 0.8131 This represents an increase of approximately 0.0454 in validation accuracy, suggesting that data augmentation contributed positively to the model's performance on unseen data. 
+
 💡 **6. Why is Batch Normalization important in CNNs?**
+
+-Batch Normalization makes deep CNNs much easier and faster to train, leading to better overall performance and generalization.
 
 💡 **7. What role did Dropout play in improving your model?**
 
+-Dropout is a smart study technique for my model to avoid memorizing the answers which mo result og Overfitting instead truly understand material(generalize).
+
 💡 **8. How did Early Stopping prevent overfitting?**
+
+-Early stopping serves as  a crucial regularization technique within the machine learning training paradigm, primarily designed to mitigate overfitting. Overfitting occurs when a model learns the training data, including its noise, too well, thereby losing its ability to generalize effectively to unseen data. Early stopping addresses this by continuously monitoring the model's performance on a separate validation dataset during the training process.
 
 **C. Performance Comparison**
 
 💡 **9. What improvements were observed after modifying the model?**
 
+-An increase in validation accuracy from 0.7677 to 0.8131, and a decrease in Validation loss from 0.8399 to 0.6545. The average performance across all classes also improved, with macro precision rising from 0.7708 to 0.8297, macro recall from 0.7660 to 0.8142, and macro F1-score from 0.7635 to 0.8141. These improvements indicate a better generalized and more accurate model, surpassing both the initial baseline and the Teachable machine benchmark.
+
 💡 **10. Which enhancement contributed the most to performance improvement? Why?**
 
+-The biggest improvements came from the combination of the more sophisticated model architecture with deeper convolutional layers and Batch Normalization and the robust regularization techniques Dropout and L2 Regularization, alongside the enhanced Data Augmentation.
+
 💡 **11. Did the gap between training and validation accuracy decrease? Explain.**
+
+-Yes, the gap between training and validation accuracy did change, and it increased for the improved model. Despite the improved model's notably better performance on validation data, the widening generalization gap indicates a more intense learning of the training set compared to the baseline, resulting in a slightly greater difference between its performance on familiar versus novel data.
 
 **D. Explainability (Grad-CAM Integration)**
 
 💡 **12. How did Grad-CAM help in understanding model predictions?**
+
+-
 
 💡 **13. Did the improved model focus on more relevant regions? Provide evidence.**
 
