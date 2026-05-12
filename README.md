@@ -58,15 +58,13 @@
 
 💡 **12. How did Grad-CAM help in understanding model predictions?**
 
--
+-Grad-CAM is a method used to figure out the reasoning behind a Convolutional Neural Network's (CNN) predictions. It achieves this by creating a general heat map that pinpoints and emphasizes  the key areas within an input image that the model focused on to arrive at its classification outcome.
 
 💡 **13. Did the improved model focus on more relevant regions? Provide evidence.**
 
+-Grad-CAM visualization showed that the improved CNN concentrated more on diagnostically relevant regions of the image compared to the baseline model, indicating improved feature localization and interpretability.
+
 💡 **14. Why is explainability important in real-world AI applications?**
 
-
-
-
-
-
+-Explainability is important in real-world AI applications because it helps people understand how and why an AI systems makes decisions. When users can understand the process behind the results, they are more likely to trust the system. It is also important in fields like healthcare, finance, education, and security where AI decisions can greatly affect people's lives.
 
