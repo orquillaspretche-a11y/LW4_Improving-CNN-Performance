@@ -8,17 +8,19 @@
 
 💡 **1. What were the weakest-performing classes based on the confusion matrix?**
 
-Based on the confusion matrix, these are the weakest-performing classes Buttercrunch Lettuce, Bibb Lettuce, Lactuca Sativa and Batavia Lettuce.
+-Based on the confusion matrix, these are the weakest-performing classes Buttercrunch Lettuce, Bibb Lettuce, Lactuca Sativa and Batavia Lettuce.
 
 💡 **2. How did Precision, Recall, and F1-score vary across classes?**
 
--The detailed numerical breakdown of Precision, Recall, and F1-score for each class is described in 'PART 3: Re-evaluate the Improved Model' which generates the classification report.
+-The Precision, Recall, and F1-score vary across different classes like for Arugula Lettuce has the high recall 0.9483 but lower precision 0.705128 resulting in an F1-score of 0.8088. While Batavia Lettuce shows good precision 0.8049 but relatively low recall 0.5789, leading to an F1-score of 0.6735.
 
 💡 **3. What does a low recall indicate in your model?**
 
--A low recall indicates that the model is not good at identifying all the actual positive instances of a particular class. It means that out of all the images that truly belong to a certain class, the model is only correctly identifying a small proportion of them. 
+-A low recall indicates that the model is missing a significant portion of the actual positive cases. If a class has a low recall, it means that many instances belonging to that class are being incorrectly classified as belonging to other classes.
 
 💡 **4. How does AUC score reflect model performance compared to accuracy?**
+
+-Accuracy gives a quick overview of correct prediction, AUC provides a more robust and nuanced evaluation of a model's ability to discriminate between classes, particularly useful in scenarios with varying class distributions or when the cost of different types of errors is not uniform.
 
 **B. Model Improvement**
 
