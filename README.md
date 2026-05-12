@@ -8,7 +8,7 @@
 
 💡 **1. What were the weakest-performing classes based on the confusion matrix?**
 
-Based on the confusion matrix, these are the weakest-performing classes Buttercrunch Lettuce, Lactuca Sativa, Butterhead, Butterhead, and Loose Leaf Lettuce.
+Based on the confusion matrix, these are the weakest-performing classes Buttercrunch Lettuce, Bibb Lettuce, Lactuca Sativa and Batavia Lettuce.
 
 💡 **2. How did Precision, Recall, and F1-score vary across classes?**
 
